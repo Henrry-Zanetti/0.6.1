@@ -1,0 +1,40 @@
+section {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  button {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align:center ;
+    font-size: 1em;
+    padding: 1px;
+    border: 1px black solid;
+    border-radius: 5px;
+    color: black;
+
+    
+  }
+  .pendentes{
+   background-color: #8fd14f ;
+  }
+  .concluidas{
+    background-color: #0ca789;
+
+  }
+  .excluidas{
+    background-color: #eb4045;
+
+  }
+  button:hover{
+    outline: none;
+    border:1px solid green;
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+    border: 1px solid green;
+}

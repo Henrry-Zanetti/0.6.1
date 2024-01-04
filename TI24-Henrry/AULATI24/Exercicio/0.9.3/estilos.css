@@ -1,0 +1,82 @@
+.Conteiner{
+    display: flex;
+    position: relative;
+    max-width: 700px;
+  
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgb(5, 122, 240) 0%, rgba(0,255,252,1) 100%);
+    justify-content: space-between;
+    align-items: baseline;
+}
+.Face{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+.Face button{
+height: 30px;
+border-radius: 70px;
+background: none;
+border: none;
+}
+
+.Simbolos{
+    border-radius: 50px;
+    border: 0px;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: none;
+}
+.Sino{
+    border-radius: 50px;
+    border: 0px;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: none;
+}
+.Lupa{
+    border-radius: 50px;
+    border: 0px;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: none;
+}
+.Flecha{
+    border-radius: 50px;
+    border: 0px;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: none;
+}
+
+.Messenger{
+    border-radius: 50px;
+    border: 0px;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: none;
+}
+

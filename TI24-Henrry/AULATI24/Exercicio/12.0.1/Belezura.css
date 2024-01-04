@@ -1,0 +1,67 @@
+html, body{
+    background-color: black;
+    color: white;
+}
+body {  
+    background-image:url("https://cdn.gencraft.com/prod/user/9c87ccb9-cd3d-4a2e-9972-c34fbaad036d/ce08dc24-0080-427e-bcd8-31f814a90a9c/images/image1_0.jpg?Expires=1697762409&Signature=K0mNwXOiB0l8xMkSBmmj2xsIH83IlCaFXGoAHK7SjFh-ALhdRHfgIFcscnNNrjZa0HwNuWAwXlWLKvRFMzVVGD9jI5TkC31jCBEOTFdZcZ2qO0UuUAAA9lWXEMqVoHNTQ9FECDgJdqH5GdtyIc2Tdyb6lbnUfprwTwA6gnSBagHH3SjH2vWdqzhkrR7z9m6bdqshUa8hY~1R6wBdiw6EDuXMmI7fy9t7NyLLc3sh66ZzgZKkh1c5YT3PEoj2ghiYHs6UhY-LkRrpYgQdwPdyIWs4LsQawMbdaQboDS7y7I1RfjWxK2J76-2h73Ill~8o~871kJh6liSsuFC54m5KgQ__&Key-Pair-Id=K3RDDB1TZ8BHT8");
+    background-position-x: center
+   
+  }
+h1{
+    font-size: 80px;
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+button{
+    height: 40px;
+    background-color: rgb(45,45,45);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    outline: none;
+    border:1px solid gray;
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+    border: 1px solid gray;
+}
+:root {
+    --cor-primaria: black;
+  }
+  
+  .valor {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .valor label {
+    font-size: 8px;
+    color: var(--cor-primaria);
+  }
+  
+  .valor input {
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--cor-primaria);
+    outline: var(--cor-primaria);
+    color: var(--cor-primaria);
+  }
+  
+  .valor svg {
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 5px;
+    fill: var(--cor-primaria);
+  }
+  
+  .valor-wrapper {
+    position: relative;
+  }
+  
+  

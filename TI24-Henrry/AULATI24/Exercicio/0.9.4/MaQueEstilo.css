@@ -1,0 +1,49 @@
+.Barril{
+ display: flex;
+ flex-direction: column;
+ margin-top: 40px;
+ margin-left: 10px;
+ margin-right: 10px;
+ border-radius: 10px;
+ gap: 10px;
+}
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 60px;
+    position: relative;
+    
+}
+.Mensagensrecebidas{
+    position: absolute;
+    align-self: flex-start;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 4px;
+    border-style: initial;
+    hover: 5px;
+    fill: blue;
+    background-color: darkgray;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+.Mensagensenviadas{
+    position: absolute;
+    align-self: flex-end;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 4px;
+    border-style: initial;
+    hover: 5px;
+    fill: blue;
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}

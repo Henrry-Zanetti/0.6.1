@@ -1,0 +1,35 @@
+.Conteiner{
+    position: relative;
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 0px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+.Conteiner:nth-child(1){
+    height: auto;
+}
+.noosei{
+    display: flex;
+    gap: 40px;
+}
+.button{
+    position: absolute;
+    left: 405px;
+    top: -10px;
+}
+.fechar{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.fechar:hover, .fechar:focus{
+    transition: all 0.1s ease-in-out;
+color: darkred;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
