@@ -1,0 +1,88 @@
+html, body, .container{
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+.youtube{
+  width: 50%;
+}
+.Reader{
+    display: flex;
+    align-items: center;
+    
+    }
+.video{
+  width: 600px;
+  height: 250px;
+  background: black;
+  color: white;
+  margin: 0 auto;
+  border-radius: 0px;
+  position: relative;
+  align-items: center;
+  
+    }
+.top{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+   
+}
+.bottom{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.centro{
+    display: flex;
+    position: relative;
+    align-content: center;
+    right: -250px;
+    bottom: -80px;
+    gap: 10px;
+    
+}
+.Reader h2{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+.Reader button{
+        fill: #DD2476;
+        size: 100px;
+}
+.rodape{
+    display: flex;
+    position: absolute;
+    bottom: 210px;
+    justify-content: space-between;
+    gap: 385px;
+}
+.rodape h3{
+    margin: 0;
+}
+.rodape button{
+    display: flex;
+    border: solid black 1px;
+    border-radius: 50px;
+    fill: black;
+}
+button{
+    pointer-events:fill;
+    background-color: transparent;
+    fill: white;
+    border: none;
+}
+.video button{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
